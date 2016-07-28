@@ -31,6 +31,8 @@ print bsp
 
 from IPython import embed
 embed()
+```
+```
 ~$ python demo.py
 OctoEuclid(8):
 E(9, 17)  [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
