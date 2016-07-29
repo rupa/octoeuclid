@@ -97,11 +97,11 @@ class BeatStepPro(object):
 
         for idx in range(len(self.octoeuclid)):
             # controller mode only
-            if message[:2] == [0xb0 + idx, rot_knobs[idx]]:
+            if message[:2] == [0xb0, rot_knobs[idx]]:
                 self.octoeuclid.rotate(idx)
                 print 'rotate', idx
                 return
-            if message[:2] == [0xb0 + idx, rst_knobs[idx]]:
+            if message[:2] == [0xb0, rst_knobs[idx]]:
                 self.octoeuclid.reset(idx)
                 print 'reset', idx
                 return
