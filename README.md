@@ -2,6 +2,14 @@
 
 Up to 8 Euclidean Rhythms at once, on your BeatStep Pro.
 
+# Requirements
+
+Needs python and python-rtmidi.
+
+```
+pip install -r requirements.txt
+```
+
 # Usage
 
 Something like ...
